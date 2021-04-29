@@ -1,0 +1,43 @@
+Label {
+    -fx-min-width:50;
+    -fx-min-height:50;
+    -fx-border-width:2;
+    -fx-border-color:black;
+    -fx-padding:5 8 5 8;
+    -fx-alignment: center;
+    -fx-font:28px Helvetica;
+    -fx-border-color:saddlebrown;
+}
+
+Label.points{
+    -fx-min-width:50;
+    -fx-min-height:50;
+    -fx-padding:5 8 5 8;
+    -fx-border-style: none;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+    -fx-alignment: center;
+    -fx-font:24px Helvetica;
+}
+
+Button{
+    -fx-min-width:50;
+    -fx-min-height:50;
+    -fx-border: none;
+    -fx-padding:5 8 5 8;
+    -fx-text-alignment: center;
+    -fx-font:28px Helvetica;
+    -fx-background-color: tan;
+    -fx-border-color:saddlebrown;
+}
+
+Button.controls{
+    -fx-min-width:60;
+    -fx-min-height:30;
+    -fx-border: none;
+    -fx-padding:5 8 5 8;
+    -fx-text-alignment: center;
+    -fx-font:20px Helvetica;
+    -fx-background-color: none;
+    -fx-border-color:black;
+}
