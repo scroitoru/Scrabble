@@ -8,7 +8,6 @@
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
-
     <servlet>
         <display-name>DictionaryServlet</display-name>
         <servlet-name>DictionaryServlet</servlet-name>
