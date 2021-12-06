@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class DictionaryController {
     @FXML
@@ -13,7 +14,7 @@ public class DictionaryController {
     @FXML
     private Text actionTarget;
 
-    public void wordSearch(ActionEvent actionEvent) throws FileNotFoundException {
+    public void wordSearch(ActionEvent actionEvent) throws IOException {
         String isWord = wordSearchField.getText();
 
         ScrabbleDictionary scrabble = new ScrabbleDictionary();

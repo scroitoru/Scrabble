@@ -11,15 +11,15 @@ import java.util.List;
 public class ScrabbleBoardController {
 
     @FXML
-    private List<Label> answerLabels;
+    public List<Label> answerLabels;
 
     @FXML
-    private List<Button> letterButtons;
+    public List<Button> letterButtons;
 
     @FXML
-    Label pointsLabel;
+    public Label pointsLabel;
 
-    int points = 0;
+    public int points = 0;
 
     private final LetterBag letterBag;
 
